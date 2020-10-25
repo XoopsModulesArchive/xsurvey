@@ -1,0 +1,2 @@
+- Remove all 'queryF' calls (unsafe), use confirmation pages (check mylinks admin file for a sample)
+- INSERT STEP SYSTEM TO ADD QUESTION (Question options pqge...)

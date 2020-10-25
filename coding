@@ -1,0 +1,14 @@
+Coding standards
+----------------
+- Use comments. Not too many, but more than one line is certainly 
+allowed. This module could become a sort of 'learning' module for other 
+develpers, including some advanced functions like OnUninstall.
+- Code is beautified by beautify_php from time to time. This *can* break 
+code (unfortunately). If anyone knows a (better) alternative, please let 
+me know.
+- Try not to include HTML code inside PHP scripts, or almost none.
+- Debug echo's, print_r's and whatsoever should be *removed* in release 
+versions, not only commented out.
+- ALWAYS test data integrity, quote all database fields and values in SQL queries
+- Use XOOPS Core API where possible, deprecated functions should be avoided if possible
+- ALWAYS cvs update before cvs commit
